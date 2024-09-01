@@ -2,9 +2,6 @@
 Several techniques can be used to send or receive information or data from one container to another, Like:
 
 - mounting a shared disk on the host and shared that host path to exchange files or information between containers
-- Making use of external messaging queues such as
-  - ActiveMq and
-  - Kafka
 - We are able to obtain information on port 80 if we are executing web applications within the container.
 
 However some programs require or a application configured in clustered environment required SSH protocol-based communication to connect and share data or information. 
